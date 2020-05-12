@@ -2,13 +2,13 @@ var express = require('express');
 app = express();
 
 app.get('/', function (req, res) {
-  res.send('Hello World!\n');
+  res.send('Hello World Version 2.00!\n');
 });
 
 app.get('/mars', function(req, res) {
-  res.send('Hello Mars\n');
+  res.send('Hello Mars Version 2.00\n');
 
-  
+
 
 });
 
